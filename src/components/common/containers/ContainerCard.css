@@ -1,0 +1,10 @@
+.Container-card {
+  align-items: center;
+  background-color: #1c1c1c;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 4rem;
+}

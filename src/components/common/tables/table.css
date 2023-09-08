@@ -1,0 +1,35 @@
+table-head {
+  height: 50px;
+  font-weight: bold;
+}
+
+.table-pagination-div {
+  display: flex;
+  padding-top: 8px;
+}
+
+.table-pagination-div button {
+  background: transparent;
+  border: transparent;
+  margin: 0 5px;
+}
+
+.table-pagination-div button svg {
+  height: 20px;
+}
+
+.table-pagination-div button:hover {
+  background-color: #e9e9e9e9;
+  cursor: pointer;
+}
+
+table tr:nth-child(even) { background: #fff; }
+table tr:nth-child(odd) { background:#e9e9e9; }
+
+.custom-table > tbody > tr > td {
+  vertical-align: middle !important;
+}
+
+td > button.button-filter {
+  width: 100%;
+}

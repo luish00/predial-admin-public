@@ -1,0 +1,95 @@
+.Sidebar-list {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Sidebar-name {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Row-item {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+}
+
+.Row-item a {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  width: 100%;
+}
+
+.Row-item a:hover {
+  opacity: 0.6;
+}
+
+.Row-item #icon {
+  display: grid;
+  flex: 30%;
+  place-items: center;
+}
+
+.Row-item #title {
+  flex: 70%;
+  margin: 0 1rem;
+}
+
+.Row-item:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+
+.Logout-item {
+  margin-top: auto;
+}
+
+.Logout-item #title {
+  margin: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .side-bar-offcanvas {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #side-bar-container {
+    display: none;
+  }
+
+  .Row-item #icon {
+    display: grid;
+    flex: 10%;
+    place-items: center;
+  }
+
+  .Row-item #icon svg {
+    fill: #212529;
+  }
+
+  .Row-item #title {
+    flex: 90%;
+    margin: 0 1rem;
+    color: #212529;
+  }
+}

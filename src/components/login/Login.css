@@ -1,0 +1,11 @@
+.Error-message {
+  color: red;
+  font-size: large;
+  margin: 2rem 0;
+}
+
+.login-span {
+  color: white;
+  font-size: xx-large;
+  margin-bottom: 3rem;
+}

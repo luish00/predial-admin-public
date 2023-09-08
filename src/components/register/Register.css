@@ -1,0 +1,7 @@
+.Error-message {
+  color: red;
+  font-size: large;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+}
